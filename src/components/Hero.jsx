@@ -33,7 +33,7 @@ export default function Hero() {
   }, [px, py]);
 
   // Allow overriding the scene URL so we can easily restore the previous background.
-  const sceneUrl = import.meta.env.VITE_SPLINE_SCENE_URL || 'https://prod.spline.design/zhZFnwyOYLgqlLWk/scene.splinecode';
+  const sceneUrl = import.meta.env.VITE_SPLINE_SCENE_URL || 'https://prod.spline.design/r5IG9MYxXdaS5q9l/scene.splinecode';
 
   return (
     <section ref={containerRef} className="relative h-screen w-full overflow-hidden bg-zinc-950 text-white">
